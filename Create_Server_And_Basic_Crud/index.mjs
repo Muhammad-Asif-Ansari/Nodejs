@@ -37,6 +37,12 @@ app.get('/',(req,res)=>{
    res.send(users)
 })
 
+
+app.get('/users',(req,res)=>{
+   res.send(users)
+})
+
+
 // app.post('/users',(req,res)=>{
 //    res.send(users)
 // })
